@@ -1,0 +1,139 @@
+/* Add a black background color to the top navigation /
+.topnav {
+  background-color: #fcee1c;
+  overflow: hidden;
+}
+
+/ Style the links inside the navigation bar /
+.topnav a {
+  float: left;
+  color: #fcee1c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/ Change the color of links on hover /
+.topnav a:hover {
+  background-color: #fcee1c;
+  color: black;
+}
+
+/ Add a color to the active/current link */
+.topnav a.active {
+  background-color: lightyellow;
+  color: black;
+}
+
+.topnav{
+    float: center;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.col:first-child {
+    margin-left: 0;
+}
+
+
+.col {
+    border: 2px solid mediumvioletred;
+    padding: 5px;
+    background-color: lightskyblue;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+body{
+    margin: 0;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+header{
+    background-color: lightpink;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+header img{
+    border-radius: 130px;
+    width: 170px;
+    border: 10px solid lightblue;
+}
+
+h1, h2{
+    font-family: 'Permanent Marker', cursive;
+}
+
+header h1{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    font-size: 50px;
+}
+
+
+
+main img{
+    max-width: 100%;
+}
+
+main{
+    text-align: left;
+    background-color: #ffffe0;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 100 25px;
+    padding-bottom: 100px;
+}
+
+.box{
+    text-align: center;
+    background-color: #ffffe0;
+    width: 1248px;
+    padding: 50px;
+    border: #ffffe0;
+
+}
+
+.box{
+    text-align: left;
+    width: 720px;
+    padding:10px;
+    margin: 0 auto;
+
+}
+
+
+a{
+    color: green;
+}
+
+a:hover{
+    color: red;
+}
+
+footer{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 99.25%;
+}
+
+p.caption{
+    color: #999999;
+    text-align: right;
+    font-style: italic;
+}
+
+h2{
+    padding-top: 20px;
+}
